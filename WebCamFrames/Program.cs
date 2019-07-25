@@ -52,7 +52,11 @@ namespace WebCamFrames
 
             var bytes = bitmap.ToByteArray(ImageFormat.Bmp);
 
-            SendVarData(, bytes);
+            //populate with socket information
+
+
+            //Send image to socket
+            //SendVarData(, bytes);
 
             Thread.Sleep(1000);
             // process the frame
